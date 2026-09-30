@@ -32,4 +32,5 @@ public class BookingServiceImpl implements BookingService {
         public BookingResponse createBooking(CreateBookingRequest request) {
                 throw new UnsupportedOperationException();
         }
+
 }

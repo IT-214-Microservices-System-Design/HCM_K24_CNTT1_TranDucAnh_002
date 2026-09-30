@@ -23,4 +23,5 @@ public class MovieServiceImpl implements MovieService {
         return movieRepository.findById(id)
                 .orElseThrow(() -> new MovieNotFoundException(id));
     }
+
 }
